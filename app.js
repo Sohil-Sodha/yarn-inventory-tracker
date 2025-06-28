@@ -50,7 +50,7 @@ function isLoggedIn(req, res, next) {
 }
 
 app.get('/', (req, res) => {
-  res.send('🎉 Yarn Inventory System is running!');
+  res.redirect('/login');
 });
 
 app.get('/login', (req, res) => {
