@@ -7,7 +7,7 @@ const path = require('path');
 // Global variables
 const app = express();
 // const port = 3000;
-const PORT = process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 
 // Routes
 const { router: authRoutes } = require('./routes/auth');
